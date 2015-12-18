@@ -227,6 +227,18 @@ pre {
     border-right: none;
 }
 
+red {
+    color: #f00
+}
+
+green {
+    color: #0f0
+}
+
+blue {
+    color: #00f
+}
+
 tt {
     background-color: #ecf0f3;
     padding: 0 1px 0 1px;
@@ -254,3 +266,4 @@ div.viewcode-block:target {
     border-top: 1px solid #ac9;
     border-bottom: 1px solid #ac9;
 }
+
