@@ -1,4 +1,5 @@
-print 'Here:',
-print 'there'
+print "Here:",
+print "there"
 import sys
-print >> sys.stderr, 'Oops!'
+
+print >> sys.stderr, "Oops!"
