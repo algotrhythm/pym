@@ -30,8 +30,22 @@ setup(
         'Topic :: Software Development :: Code Generators',
     ],
     test_suite='pytest.collector',
-    install_requires=['pysyte'],
-    tests_require=['pytest', 'pysyte'],
+    install_requires=[
+        "pprintpp",
+        "pysyte>=0.7.41",
+        "rich",
+        "stemming",
+        "tatsu",
+    ],
+    tests_require=[
+        "codecov",
+        "coverage",
+        "pym==0.3.3",
+        "pysyte>=0.7.41",
+        "pytest",
+        "pytest-cov",
+        "tox",
+    ],
     extras_require={
         'testing': ['pytest'],
     }
