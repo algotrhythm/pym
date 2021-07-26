@@ -2,7 +2,7 @@
 
 codecov
 coverage
-pym==0.3.3
+pym
 pytest
 pytest-cov
 tox
