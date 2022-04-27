@@ -1,5 +1,5 @@
-The pym/templates/__init__ module
-=================================
+The pym.templates module
+========================
 
-    >>> import pym/templates/__init__
-    >>> print pym/templates/__init__.__doc__
+    >>> from pym import templates
+    >>> assert "many template languages" in templates.__doc__

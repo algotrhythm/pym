@@ -2,6 +2,7 @@
 
 codecov
 coverage
+pym
 pytest
 pytest-cov
 tox

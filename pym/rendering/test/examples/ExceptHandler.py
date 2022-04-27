@@ -1,6 +1,6 @@
 try:
     pass
-except:
+except:  # noqa
     pass
 
 try:
@@ -11,9 +11,9 @@ except Exception:
 try:
     pass
 except Exception as e:
-    print e
+    x = e
 
 try:
     pass
 except (Exception, SyntaxError) as e:
-    print e
+    x = e
